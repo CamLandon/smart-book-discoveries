@@ -40,4 +40,4 @@ pytest==7.4.0  # For unit testing
 # Database (if storing book data in SQL)
 SQLAlchemy==2.0.20
 psycopg2==2.9.7  # If using PostgreSQL
-sqlite3  # Included in Python standard library
+#sqlite3  # Included in Python standard library
