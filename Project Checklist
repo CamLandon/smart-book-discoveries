@@ -1,0 +1,40 @@
+Book Recommendation System - Project Checklist
+
+PHASE 1: PROJECT SETUP
+- Install VSCode, GitHub, and set up a virtual environment.
+- Install necessary Python libraries (beautifulsoup4, requests, pandas, scikit-learn, etc.).
+- Set up the GitHub repository and clone it locally.
+- Organize the project folder structure.
+```shell
+DONE
+```
+
+PHASE 2: DATA COLLECTION (Web Scraping)
+- Choose a data source (Goodreads, Gutenberg, Google Books API).
+- Write the web scraper (scraper.py) to collect book metadata.
+- Store the scraped data in CSV format.
+
+PHASE 3: DATA CLEANING & PREPROCESSING
+- Load and inspect the dataset using Pandas.
+- Clean missing values, remove duplicates, and process text data.
+- Apply text preprocessing (stopwords removal, lemmatization).
+
+PHASE 4: BUILD THE RECOMMENDATION SYSTEM
+- Implement Content-Based Filtering using TF-IDF and cosine similarity.
+- Compute similarity scores between books.
+- Create a function to generate book recommendations.
+
+PHASE 5: VISUALIZATION & ANALYSIS
+- Plot book genre distribution using Matplotlib.
+- Generate a Word Cloud from book descriptions.
+- Evaluate recommendation accuracy using sample queries.
+
+PHASE 6: DEPLOYMENT (Optional)
+- Build a simple Streamlit app for interactive recommendations.
+- Test the app locally using 'streamlit run app.py'.
+
+PHASE 7: WRITING THE PROJECT REPORT IN OVERLEAF
+- Set up Overleaf and create a new LaTeX document.
+- Write sections for Introduction, Data Collection, Methodology, Results, and Conclusion.
+- Include generated charts and visualizations in the report.
+- Compile the report and export it as a PDF.
