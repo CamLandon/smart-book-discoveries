@@ -41,3 +41,6 @@ pytest==7.4.0  # For unit testing
 SQLAlchemy==2.0.20
 psycopg2==2.9.7  # If using PostgreSQL
 #sqlite3  # Included in Python standard library
+
+#Requests
+requests==2.31.0  # Or whatever version is installed
